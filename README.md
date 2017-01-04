@@ -17,8 +17,10 @@ STA521_S17_web/noita/foundation/css/foundation.min.css
 (use firebug to see colors and then edit file to add new ones;
 colorpicker is a good way to find the HEX for colors)
 
-Current color is F7786B for links and DD4132 for Headers, info at top etc
-Color 98DDDE for hover link (from Pantone Spring 16)
+Current colors (from Pantone Spring 17)
+* 5587A2 (Niagara) for links and
+* 0C4C8A (Lapis Blue) for Headers, info at top etc
+* 97D5E0 (Island Paridise) for hover link 
 
 
 The other directories include materials for lectures (LaTeX, R, data)
