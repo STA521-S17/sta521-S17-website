@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="{{site.baseurl}}{{ stylesheet }}">
   {% endfor %}
 
-  <script src="{{site.baseurl}}/noita/foundation/js/vendor/modernizr.js"></script>
+    <script src="{{site.baseurl}}/noita/foundation/js/vendor/modernizr.js"></script>
+    {% if page.url == "/404.html" %}
+        <meta http-equiv="refresh" content="5; url={{site.baseurl}}/404.html">
+    {% endif %}
+
 </head>
 <body>
 
