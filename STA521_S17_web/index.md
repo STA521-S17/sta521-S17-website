@@ -30,6 +30,8 @@ see me if you have questions about the pre-requisites.
 |------------+---------------------+---------------------|
 |Professor   | [Dr. Merlise Clyde ](http://stat.duke.edu/~clyde) | [clyde@duke.edu](mailto:clyde@duke.edu)
 |:-----------|:--------------------|:-------------------|
+|TA         |[Ksenia Kyzyurova](http://stat.duke.edu/people/ksenia-kyzyurova)   | [kk194@duke.edu](mailto:kk194@duke.edu) 
+|:-----------|:--------------------|:-------------------|
 |TA         |[Victor Peña](http://stat.duke.edu/people/victor-peña)   | [victor.pena@duke.edu](mailto:victor-pena@duke.edu) 
 |:-----------|:--------------------|:-------------------|
 |TA         |[Xin (Julia) Xu ](http://stat.duke.edu/people/xin-xu)   | [xin-xu3@duke.edu](mailto:xin-xu3@duke.edu) 

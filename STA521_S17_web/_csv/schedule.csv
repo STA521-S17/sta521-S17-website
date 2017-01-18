@@ -2,14 +2,14 @@ Week,Date,Topic,Handouts,Readings,HW
 Week 1,11-Jan,Course Introduction,"<a href=""../knitr/Lec-1-Intro/intro.pdf"">slides</a>  ","Read  ISL <a href=""http://search.library.duke.edu/search?id=DUKE005921677""> Chapters 1</a>","Install <a href=""https://www.rstudio.com/products/rstudio/download3/"">Rstudio</a> and start CodeSchool's<a href=""https://www.codeschool.com/courses/try-r"">Try R</a>"
 ,13-Jan,Lab1: RStudio & Github,"<a href=""http://www2.stat.duke.edu/~cr173/Sta523_Fa16/git.html"">git & github</a> and <a href=""https://www.youtube.com/watch?v=Pqp2k4oDktw""> werker </a>","<a href=""https://www.atlassian.com/git/tutorials/comparing-workflows/centralized-workflow/""> Centralized WorkFlow with Git""</a>  <a href=""https://try.github.io/""> Try git</a> ",
 Week 2,16-Jan,,"<span style=""color:gray"">No class - MLK Day",,
-,18-Jan,Modelling Overvies and Review of Regression,"<a href=""../knitr/Lec-2-models/Models.pdf"">slides</a>  (<a href=""../knitr/Lec-2-models/Models.Rmd"">Rmarkdown</a> )","Read  ISL <a href=""http://search.library.duke.edu/search?id=DUKE005921677""> Chapters 2</a>","<a href=""../hw/HW1.pdf""> HW1</a>   "
-,20-Jan,Lab2: Rmarkdown & Regression,,,
-Week 3,23-Jan,Regression,,,
-,25-Jan,Diagnostics,,,
-Week 4,30-Jan,Transformations,,,
-,1-Feb,Model Selection I,,,
-Week 5,6-Feb,Bayesian Regression,,,
-,8-Feb,Hierarchical Models,,,
+,18-Jan,Modelling Overview and Review of Regression,"<a href=""../knitr/Lec-2-Models/Models.pdf"">slides</a>  (<a href=""../knitr/Lec-2-Models/Models.Rmd"">Rmarkdown</a> )","Read  ISL <a href=""http://search.library.duke.edu/search?id=DUKE005921677""> Chapters 2</a>",
+,20-Jan,Lab2: Rmarkdown & Regression,,,"<a href=""../hw/HW1.pdf""> HW1</a>   "
+Week 3,23-Jan,Transformations,,,
+,25-Jan,Variable Seletion I,,,
+Week 4,30-Jan,Predictive Accuracy,,,
+,1-Feb,Bayesian Regression,,,
+Week 5,6-Feb,Bayesian Outliers,,,
+,8-Feb,Bayesian Variable Selection,,,
 Week 6,13-Feb,Predictive Checking,,,
 ,15-Feb,BMA,,,
 Week 7,20-Feb,,,,

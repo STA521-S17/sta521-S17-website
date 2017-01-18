@@ -167,7 +167,7 @@ plot(bodyfat.lm, ask=F)
 ## Diagnostic Plots
 
 * Residuals versus fitted values
-* Normal Quantil: check normality of residuals or look for heavier tails than normal
+* Normal Quantile: check normality of residuals or look for heavier tails than normal
  where observed quantiles are larger than expected under normality
 * Scale-Location plot:  
  Detect if the spread of the residuals is constant over the range of  fitted values.  (Constant variance with mean)
