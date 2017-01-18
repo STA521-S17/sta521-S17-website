@@ -184,7 +184,8 @@ $$H = X (X^TX)^{-1}X^T$$
     + idempotent $H H = H$
     + symmetric
     + leverage values are the diagonal elements $h_{ii}$
-$$Y_i = h_{ii} Y_i + \sum_{i \neq j} h_{ij} Y_j$$
+$$\hat{Y}_i = h_{ii} Y_i + \sum_{i \neq j} h_{ij} Y_j$$
+$$ 0 \leq h_{ii} \leq 1$$
 * leverage values near 1 imply $\hat{Y}_i = Y_i$
 * potentially influential
 * measure of how far $x_i$ is from center of data
