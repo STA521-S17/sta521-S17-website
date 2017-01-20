@@ -1,4 +1,4 @@
-sta521 Spring 17
+STA521 Spring 17
 ===========
 
 Course materials for STA 521 - Spring 2017 semester at Duke University.
