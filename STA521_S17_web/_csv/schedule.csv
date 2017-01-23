@@ -4,7 +4,7 @@ Week 1,11-Jan,Course Introduction,"<a href=""../knitr/Lec-1-Intro/intro.pdf"">sl
 Week 2,16-Jan,,"<span style=""color:gray"">No class - MLK Day",,
 ,18-Jan,Modelling Overview and Review of Regression,"<a href=""../knitr/Lec-2-Models/Models.pdf"">slides</a>  (<a href=""../knitr/Lec-2-Models/Models.Rmd"">Rmarkdown</a> )","Read  ISLR <a href=""http://search.library.duke.edu/search?id=DUKE005921677""> Chapters 2</a>",
 ,20-Jan,Lab1: Rmarkdown & EDA,"<a href=""https://classroom.github.com/assignment-invitations/62ee001b0a33890a01ccc60fcf6f9d7d""> Lab1 Repo</a>",,
-Week 3,23-Jan,Diagnostics,"<a href=""../knitr/Lec-3-Diagnostics/Diagnostics.pdf"">slides</a>  (<a href=""../knitr/Lec-3-Diagnostics/Diagnostics.Rmd>Rmarkdown</a> )",,"<a href=""../knitr/Lec-4-Transformations/Transformations.Rmd"">Rmarkdown for next class</a>  "
+Week 3,23-Jan,Diagnostics,"<a href=""../knitr/Lec-3-Diagnostics/Diagnostics.pdf"">slides</a>  (<a href=""../knitr/Lec-3-Diagnostics/Diagnostics.Rmd>Rmarkdown</a> )",ISLR Ch3,"<a href=""../knitr/Lec-4-Transformations/Transformations.Rmd"">Rmarkdown for next class</a>  "
 ,25-Jan,Transformations,,,
 Week 4,30-Jan,Predictive Accuracy,,,
 ,1-Feb,Bayesian Regression,,,
