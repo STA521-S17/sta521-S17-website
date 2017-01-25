@@ -223,5 +223,5 @@ After you determine whether dinos can stay or go and refine your model, what abo
 - I would like to predict Aria's brain size given her current weight of 259 grams.  Give me a prediction and interval estimate.
 - Is her body weight within the range of the data in Animals or will you be extrapolating?   What are the dangers here?
 
--  Can you find any data on Rose-Breasted Cockatoo brain size?  Are the values in the prediction interval?
+-  Can you find any data on Rose-Breasted Cockatoo brain sizes?  Are the values in the prediction interval?
 ![Aria](Aria.jpg)
