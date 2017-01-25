@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Read in Animal data from MASS.  The data set contains measurements on body weight and brain weight.
 
-Let's try to predict brain weight (size) from body wieght.
+Let's try to predict brain weight (size) from body weight.
 
 ```{r}
 library(MASS)
