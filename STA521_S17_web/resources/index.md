@@ -13,7 +13,9 @@ title: Course Resources & Links
 * Hoff, P. L.  (2009),  A First Course in Bayesian Statistical Methods,
 Springer.  ISBN 978-0-387-92299-7  [get it @ Duke](http://getitatduke.library.duke.edu/?sid=sersol&SS_jc=TC0000296463&title=A%20First%20Course%20in%20Bayesian%20Statistical%20Methods)
 
+* Weisberg, S. (2014)  (Computing Primer for Applied Linear Regression Using R)[http://users.stat.umn.edu/~sandy/alr4ed/links/alrprimer.pdf]  (Useful for R)
 
+* Weisberg, S. (2013)  (Applied Linear Regression)[http://search.library.duke.edu/search?id=DUKE005781635]  
 
 ### Linear/Matrix Algebra
 
