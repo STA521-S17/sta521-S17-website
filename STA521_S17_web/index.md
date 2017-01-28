@@ -54,7 +54,8 @@ see me if you have questions about the pre-requisites.
 |-----------+--------+-----------|
 | Who       |  Where | When      
 |:-----------|:--------|:-----------|
-| Professor Clyde |  Old Chemistry 214A |  Tuesday TBA, after class or by appointment
+| Professor Clyde |  Old Chemistry 214A |  Tuesday 3:00-4:00, after
+| class Mon & Wed, or by appointment
 |-----------+--------+-----------|
 
 * * *
