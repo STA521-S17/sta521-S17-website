@@ -34,7 +34,7 @@ see me if you have questions about the pre-requisites.
 |:-----------|:--------------------|:-------------------|
 |TA         |[Victor Peña](http://stat.duke.edu/people/victor-peña)   | [vp58@duke.edu](mailto:vp58@duke.edu) 
 |:-----------|:--------------------|:-------------------|
-|TA         |[Xin (Julia) Xu ](http://stat.duke.edu/people/xin-xu)   | [xin-xu3@duke.edu](mailto:xin-xu3@duke.edu) 
+|TA         |[Xin (Julia) Xu ](http://stat.duke.edu/people/xin-xu)   | [xin-xu3@duke.edu](mailto:xin.xu3@duke.edu) 
 |------------+--------------------+-------------------|
 
 
@@ -55,7 +55,8 @@ see me if you have questions about the pre-requisites.
 | Who       |  Where | When      
 |:-----------|:--------|:-----------|
 | Professor Clyde |  Old Chemistry 214A |  Tuesday 3:00-4:00, after
-| class Mon & Wed, or by appointment
+| | |class Mon & Wed, or by appointment|
+| Xin (Julia) Xu | Old Chemistry 211A | Tuesday 7:30-8:30|
 |-----------+--------+-----------|
 
 * * *
