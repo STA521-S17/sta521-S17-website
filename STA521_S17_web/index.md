@@ -54,10 +54,14 @@ see me if you have questions about the pre-requisites.
 |-----------+--------+-----------|
 | Who       |  Where | When      
 |:-----------|:--------|:-----------|
-| Professor Clyde |  Old Chemistry 214A |  Tuesday 3:00-4:00, after
-| | |class Mon & Wed, or by appointment|
+| Professor Clyde |  Old Chemistry 214A |  Tuesday 3:00-4:00pm, 
+| | |after class Mon & Wed 11:30-12.|
 |:-----------|:--------|:-----------|
-| Xin (Julia) Xu | Old Chemistry 211A | Tuesday 7:30-8:30|
+| Victor Peña |  Old Chemistry 211A (after Feb 16) |  Thursday  8:00-10:00am |
+|:-----------|:--------|:-----------|
+| Ksenia Kyzyurova |  Old Chemistry 211A  |  TBA  |
+|:-----------|:--------|:-----------|
+| Xin (Julia) Xu | Old Chemistry 211A | Tuesday 7:30-8:30 pm|
 |-----------+--------+-----------|
 
 * * *
