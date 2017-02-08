@@ -59,7 +59,7 @@ see me if you have questions about the pre-requisites.
 |:-----------|:--------|:-----------|
 | Victor Peña |  Old Chemistry 211A (after Feb 16) |  Thursday  8:00-10:00am |
 |:-----------|:--------|:-----------|
-| Ksenia Kyzyurova |  Old Chemistry 211A  |  TBA  |
+| Ksenia Kyzyurova |  Old Chemistry 211A  | Wednesday 3:00-4:00 pm  |
 |:-----------|:--------|:-----------|
 | Xin (Julia) Xu | Old Chemistry 211A | Tuesday 7:30-8:30 pm|
 |-----------+--------+-----------|
