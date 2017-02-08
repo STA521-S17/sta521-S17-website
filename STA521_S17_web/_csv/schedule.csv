@@ -11,7 +11,7 @@ Week 4,30-Jan,Hypothesis Testing: Model Choice," <a href=""../knitr/Lec-5-HT/HT.
 ,1-Feb,Logistic Regression," <a href=""../knitr/Lec-6-Binary-Regression/logistic.pdf"">slides</a>  (<a href=""../knitr/Lec-6-Binary-Regression/logistic.Rnw"">Beamer</a>) ","Read  ISLR <a href=""http://search.library.duke.edu/search?id=DUKE005921677""> Chapters 4</a>  & GH Chapter 5, <a href=""http://www.clayford.net/statistics/tag/termplot/"">termplots</a>",
 ,3-Feb,Lab 3: ," <a href=""https://github.com/STA521-S17/Lab3""> Lab 3 - werker & termplot slides</a>  ","<a href=""https://www.youtube.com/watch?v=Pqp2k4oDktw""> werker video</a>  from STA523","See <a href=""https://github.com/STA521-S17"">  HW3 in your github team page</a>"
 Week 5,6-Feb,Poisson Regression & GLMs," <a href=""../knitr/Lec-7-Poisson/poisson.pdf"">slides</a>  (<a href=""../knitr/Lec-7-Poisson/poisson.Rnw"">Beamer</a>)  <a href=""../knitr/Lec-7-Poisson/africa.dat"">Africa data</a> ",GH Chapter 6,
-,8-Feb,Predictive Checking,"<a href=""../knitr/Lec-8-Predictive-Checks/predictive-checking.pdf"">slides</a>  (<a href=""https://github.com/STA521-S17/sta521-website/STA521_S17_web/knitr/Lec-8-Predictive-Checks/predictive-checking.Rmd"">Rmarkdown</a>)  ",Gh Chapters 6-8,
+,8-Feb,Predictive Checking,"<a href=""../knitr/Lec-8-Predictive-Checks/predictive-checking.pdf"">slides</a>  (<a href=""../knitr/Lec-8-Predictive-Checks/predictive-checking.Rmd"">Rmarkdown  files</a>)  ",Gh Chapters 6-8,
 ,10-Feb,Lab 4:  Simulations and Predictive Comparisons,,,
 Week 6,13-Feb,,,,
 ,15-Feb,,,,
