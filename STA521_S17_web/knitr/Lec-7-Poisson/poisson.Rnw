@@ -244,7 +244,7 @@ D  = & -2\sum_i\left(y_i \log(\hat{\lambda}_i)  - \hat{\lambda}_i -
 \log(y_i!)\right) \\
 =  & 2 \sum_i\left(y_i (\log(y_i) -  \log(\hat{\lambda}_i))   -( y_i -  \hat{\lambda}_i)) \right) \\
 & = 2 \left(y_i (\log(y_i/\hat{\lambda}_i)   - (y_i -  \hat{\lambda}_i)) \right)
-& = \sum 2 d_i
+& = \sum d_i
 \end{align*}
 This has a chi squared distibution with $n - (p+1)$ degrees of freedom.
 \end{frame}
