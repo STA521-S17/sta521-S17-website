@@ -49,7 +49,7 @@ Focus on simulation based methods
 
 
 * The variables `couples` and `women_alone` code the **intervention**:
-    + control - no conselling  (both 0)
+    + control - no counselling  (both 0)
     + the couple was counselled together (couple=1, women_alone=0)
     +  only the woman was counselled (couple=0, women_alone=1)
 
@@ -97,7 +97,7 @@ print(xtable(summary(hiv.glm)), comment=F)
 ##  Over-Dispersion, Goodness of Fit or Lack of Fit?
 
 * deviance is -2 log(likelihood) evaluated at the MLE of the parameters in that model $\hat{\lambda}_i = \exp(\x^T_i \hat{\b})$
-$$ -2 \sum_i (y_i \log(\hat{\lambda}_i)  + \hat{\lambda}_i -
+$$ -2 \sum_i (y_i \log(\hat{\lambda}_i)  - \hat{\lambda}_i -
 \log( y_i!))$$
 * smaller is better (larger likelihood)
 * null deviance is the deviance under the "Null" model, that is a model with just an intercept or $\lambda_i = \lambda$ and $\hat{\lambda} = \bar{Y}$
@@ -107,7 +107,7 @@ with degrees of freedom equal to the change in number of parameters in the model
 
 ## Residual Deviance
 
-the residual deviance is the change in the deviance between the given model and the saturated model. substituting the expressions for deviance, we have
+the residual deviance is the change in the deviance between the given model and the saturated model. Substituting the expressions for deviance, we have
 \begin{align*}
 D  = & -2\sum_i\left(y_i \log(\hat{\lambda}_i)  - \hat{\lambda}_i -
 \log(y_i!)\right) - \\
@@ -117,7 +117,7 @@ D  = & -2\sum_i\left(y_i \log(\hat{\lambda}_i)  - \hat{\lambda}_i -
  = & 2 \left(y_i (\log(y_i/\hat{\lambda}_i)   - (y_i -  \hat{\lambda}_i)) \right)
  = & \sum  d_i
 \end{align*}
-This has a chi squared distibution with $n - (p+1)$ degrees of freedom.
+This has a chi squared distribution with $n - (p+1)$ degrees of freedom.   ($p+1$ is the number of parameters in the linear predictor)
 
 ## Test in R
 
@@ -321,7 +321,7 @@ The intervention had a significant impact on reducing the number of unprotected 
 
 In couples where only the woman took part in the counseling sessions, we estimated a significant decrease in unprotected sex  acts of 
 `r round((1 - exp(coef(hiv.glm.nb)["women_alone"]))*100, 0)`%;
-95% CI: (`r round(100*(1 - ci["women_alone",-1]), 0)`)
+95% CI: (`r round(100*(1 - ci["women_alone",3:2]), 0)`)
 
 When both partners were counseled unprotected acts are expected to decrease by `r round((1 - exp(coef(hiv.glm.nb)["couples"]))*100, 0)`%  (although p.value > .05)
 
@@ -330,12 +330,12 @@ There is no evidence to suggest that the sex of partner who reports to the resea
 There is evidence to suggest that if the partner who reports is HIV  positive there is a significant reduction of unprotected
 acts of 
 `r round((1 - exp(coef(hiv.glm.nb)[2]))*100, 0)`%;
-95% CI: ( `r round(100*(1 - ci[2,-1]), 0)`)
+95% CI: ( `r round(100*(1 - ci[2,3:2]), 0)`)
 
 
 ## Energetic Student
 
-* provide an interpretation of the coefficent for `log(bupacts + 1)`
+* provide an interpretation of the coefficient for `log(bupacts + 1)`
 
 * offsets are used to remove effects, so that the mean = $\exp(offset + \X \b)$.  In `R` this is expressed by
 ```{r}
