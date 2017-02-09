@@ -114,8 +114,8 @@ D  = & -2\sum_i\left(y_i \log(\hat{\lambda}_i)  - \hat{\lambda}_i -
 &  -2\sum_i\left (y_i \log(y_i)  - y_i -
 \log(y_i!)\right) \\
 =  & 2 \sum_i\left(y_i (\log(y_i) -  \log(\hat{\lambda}_i))   -( y_i -  \hat{\lambda}_i)) \right) \\
- = & 2 \left(y_i (\log(y_i/\hat{\lambda}_i)   - (y_i -  \hat{\lambda}_i)) \right)
- = & \sum  d_i
+ = & 2 \sum_i \left(y_i (\log(y_i/\hat{\lambda}_i)   - (y_i -  \hat{\lambda}_i)) \right)
+ = & \sum  d_i^2
 \end{align*}
 This has a chi squared distribution with $n - (p+1)$ degrees of freedom.   ($p+1$ is the number of parameters in the linear predictor)
 
