@@ -203,12 +203,12 @@ $$
 
 \begin{align*}
 Y \mid \lambda & \sim \Poi(\lambda) \\
-p(y \mid \lambda) & = \frac{y^\lambda e^{-\lambda}} {y!} \\
+p(y \mid \lambda) & = \frac{\lambda^y e^{-\lambda}} {y!} \\
 & \\
 \lambda \mid \mu, \theta & \sim \Gam(\theta, \theta/\mu)  \\
 p(\lambda \mid  \mu, \theta) & = \frac{(\theta/ \mu)^\theta}{\Gamma(\theta)} \lambda^{\theta - 1} e^{- \lambda \theta/\mu} \\
 & \\
-p(Y \mid \mu, a) & = \int p(Y \mid \lambda) p(\lambda \mid \theta, \theta/\mu) d \lambda \\
+p(Y \mid \mu, \theta) & = \int p(Y \mid \lambda) p(\lambda \mid \theta, \theta/\mu) d \lambda \\
  & =   \frac{ \Gamma(y + \theta)}{y! \Gamma(\theta)}
 \left(\frac{\theta}{\theta + \mu}\right)^{\theta}
 \left(\frac{\mu}{\theta + \mu}\right)^{y} \\
