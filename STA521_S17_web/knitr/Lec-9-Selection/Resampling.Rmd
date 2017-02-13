@@ -240,9 +240,12 @@ df = df %>% arrange(pred)   # sort by prediction
 
 # http://stackoverflow.com/questions/14033551/r-plotting-confidence-bands-with-ggplot
 gp = ggplot(df, aes(x=pred, y=fupacts)) + 
-         geom_ribbon(aes(ymin = lwr, ymax = upr), 
-               fill = "blue", alpha = 0.2) + 
-         geom_point(aes(y=fupacts))
+     geom_ribbon(aes(ymin = lwr, ymax = upr), 
+                fill = "blue", alpha = 0.2) + 
+     geom_point(aes(y=fupacts)) +
+ xlab("Predicted Unprotected Acts after Intervention at end of Study") +
+ ylab("Unprotected Acts after Intervention at end of Study") +
+ ggtitle("95% Prediction Intervals under Poisson Model")
 ```
 
 ## Prediction Interval Plot
@@ -301,13 +304,16 @@ mean(poi.coverage)
 
 ```{r pois.PI, echo=F}
 df = data.frame(fupacts = hiv.test$fupacts, 
-                pred = predict(hiv.train.poi, hiv.test, type="response"), 
+                pred = predict(hiv.train.poi, newdata=hiv.test, type="response"), 
                 lwr = pi[,1], upr=pi[,2]) 
 
 ggplot(df, aes(x=pred, y=fupacts)) + 
          geom_ribbon(aes(ymin = lwr, ymax = upr), 
                fill = "blue", alpha = 0.2) + 
-         geom_point(aes(y=fupacts))
+         geom_point(aes(y=fupacts)) +
+         xlab("Predicted Unprotected Acts after Intervention at end of Study") +
+         ylab("Unprotected Acts after Intervention at end of Study") +
+         ggtitle("95% Prediction Intervals under Poisson Model")
 ```
 
 
