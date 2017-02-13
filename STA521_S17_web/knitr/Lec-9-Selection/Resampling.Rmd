@@ -46,7 +46,7 @@ $$
 \MSE =  \frac 1 n  \sum_i{(Y_i - \widehat{f(x)})^2}
 $$ 
 
-* OLS training MSE can be driven smaller by adding more predictors
+* OLS: training MSE can be driven smaller by adding more predictors
 * How well does model predict for new data $Y^*$?
 
 $$
@@ -60,14 +60,14 @@ No guarantee  that model that has lowest training MSE will be the best out of sa
 
 MSE for Prediction
 $$
-\E[(Y^*- \widehat{f(x^*)})^2]  = \Var(\widehat{f(x^*)}) + [\Bias(\widehat{f(x^*)}) ]^2 + \Var(\epsilon)
+\E[(Y^*- \widehat{f(x^*)})^2]  = \Var(\widehat{f(x^*)}) + [\Bias(\widehat{f(x^*)}) ]^2 + \Var(\epsilon^*)
 $$
 
 * Variance: amount $\widehat{f(x)}$ varies if we use a different training set
 
 * Bias: error that is introduced by approximating model by a potentially simpler model
 
-* Variance of error:  irreducible error
+* Variance of error:  irreducible error  (Normal models)
 
 Want a statistical procedure that has low variance and low bias
 
@@ -174,7 +174,7 @@ $$P(Y^* \in (L, U)) \ge (1 - \alpha)$$
 
 Does model achieve the desired coverage? 
 
-Estimate Predictive Coverage 
+Estimate Predictive Coverage (empirical coverage)
 
 ```{r, echo=T}
 coverage = function(y, pi) {
@@ -182,7 +182,7 @@ coverage = function(y, pi) {
 }
 
 ```
-using simulation to optain the Predictin Interval
+Use simulation to obtain the Prediction Interval
 
 ##   Prediction Interval Function for Negative Binomial
 
@@ -228,20 +228,28 @@ for (i in 1:K) {
 mean(NB.coverage)
 ```
 
-##   Prediction interval from last fold  NB model
+##   Prediction interval from last fold  NB model (code)
 
-```{r, echo=F}
+```{r, echo=T}
 df = data.frame(fupacts = hiv.test$fupacts, 
-                pred = predict(hiv.train.NB, hiv.test, type="response"), 
+                pred = predict(hiv.train.NB,   # training model
+                               hiv.test,       # test data
+                               type="response"),  # type of prediction =  exp(X beta)
                 lwr = pi[,1], upr=pi[,2]) 
-df = df %>% arrange(pred)
+df = df %>% arrange(pred)   # sort by prediction
 
-ggplot(df, aes(x=pred, y=fupacts)) + 
+# http://stackoverflow.com/questions/14033551/r-plotting-confidence-bands-with-ggplot
+gp = ggplot(df, aes(x=pred, y=fupacts)) + 
          geom_ribbon(aes(ymin = lwr, ymax = upr), 
                fill = "blue", alpha = 0.2) + 
          geom_point(aes(y=fupacts))
 ```
 
+## Prediction Interval Plot
+
+```{r, echo=F}
+print(gp)
+```
 
 
 
@@ -312,4 +320,18 @@ ggplot(df, aes(x=pred, y=fupacts)) +
 
 * Think about meaningful "cost" function for comparing models
 
-* Can overdispersion be reduced by adding other redictors?
+* Can overdispersion be reduced by adding other predictors?
+
+* a well calibrated method for model fitting should have in-sample and out-of-sample costs that are similar.
+
+##  More on Predictive Checks: 
+
+* Define  $T(y)$ or $T(y, \theta)$  a function to measure model adequacy  (scalar summary)  may be a function of $y$ only
+
+*  Generate draws of $\theta^{(r)}$
+*  For each sample $r$, draw replicate $Y's$ from the model $Y^{rep \, r} \mid \theta^{r}$  and evaluate $T(y^{rep \, r}, \theta^r)$
+* If discrepancy depends on $\theta$,  evaluate $T(y^{obs}, \theta^{r})$  for each $r$
+*  plot the observed discrepancy $T(y^{obs}, \theta^{r})$ versus the replicate discrepancy $T(y^{rep \, r}, \theta^r)$.  Under the model the points should be scattered around the $45^o$ line or  look at histogram of  $T(y^{obs}, \theta^{r}) - T(y^{rep \, r}, \theta^r)$  (should include 0)
+
+* Are these values comparable to the out of sample discrepancies?   Think about MSE decomposition.
+
