@@ -14,7 +14,8 @@ Week 5,6-Feb,Poisson Regression & GLMs," <a href=""../knitr/Lec-7-Poisson/poisso
 ,8-Feb,Predictive Checking,"<a href=""../knitr/Lec-8-Predictive-Checks/predictive-checking.pdf"">slides</a>  (<a href=""../knitr/Lec-8-Predictive-Checks/predictive-checking.Rmd"">Rmarkdown  files</a>)  ",GH Chapters 6-8,
 ,10-Feb,Lab 4:  Simulations and Predictive Comparisons,"<a href=""https://github.com/STA521-S17/Lab4.Rmd"">  Lab4</a>",ISLR CH 5 & GH  7-8  ,"See <a href=""https://github.com/STA521-S17"">  HW4_Team_X in your github team page</a>"
 Week 6,13-Feb,Prediction ," <a href=""../knitr/Lec-9-Selection/Resampling.pdf"">slides</a>  (<a href=""../knitr/Lec-9-Selection/Resampling.Rmd"">Rmarkdown</a> )",ISLR Chapter 5,
-,15-Feb,,,,
+,15-Feb,Model Selection,"<a href=""../knitr/Lec-10-Model-Selection/Selection.pdf"">slides</a>  (<a href=""../knitr/Lec-10-Model-Selection/Selection.Rmd"">Rmarkdown</a> )",ISLR Chapter 6,
+,17-Feb,Lab 5:,,,
 Week 7,20-Feb,,,,
 ,22-Feb,Midterm I,,,
 Week 8,27-Feb,,,,
