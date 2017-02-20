@@ -13,6 +13,7 @@ library(knitr)
 library(formatR)
 knitr::opts_chunk$set(
       echo = TRUE,
+      comment=NA,
       warning=FALSE,
       message=FALSE,
 #      tidy = TRUE,
@@ -216,9 +217,9 @@ Does not do exhaustive search
 
 ```{r bestAIC, warning=F}
 library(bestglm)
-nes1992 = dplyr::select(nes1992, -race) %>%
+nes1992sub = dplyr::select(nes1992, -race) %>%
           filter(partyid != "apolitical")
-vote.AIC = bestglm(Xy=nes1992, family=binomial, 
+vote.AIC = bestglm(Xy=nes1992sub, family=binomial, 
                    IC="AIC", RequireFullEnumerationQ = T)
 ```
 
@@ -252,7 +253,7 @@ cat(tt[12:length(tt)], sep="\n")
 library(BAS)
 # nes1992 = mutate(nes1992, vote=as.numeric(vote))
 vote.BAS = bas.glm(vote ~ ., data=nes1992,
-                   family=binomial,
+                   family=binomial(),
                    method="MCMC", n.models=20000,
                    betaprior=aic.prior(),
                    modelprior=uniform())
@@ -269,7 +270,7 @@ image(vote.BAS, rotate=T)
 ## summary
 
 ```{r}
-vote.BAS
+summary(vote.BAS)
 # bug in plot(vote.bas)  need to fix!
 ```
 
@@ -280,7 +281,7 @@ vote.BAS
 library(BAS)
 nes1992 = mutate(nes1992, vote=as.numeric(vote))
 vote.BAS = bas.glm(vote ~ ., data=nes1992,
-                   family=binomial,
+                   family=binomial(),
                    method="MCMC", n.models=20000,
                    betaprior=bic.prior(n = nrow(nes1992)),
                    modelprior=uniform())
@@ -292,6 +293,20 @@ vote.BAS = bas.glm(vote ~ ., data=nes1992,
 ```{r}
 image(vote.BAS, rotate=T)
 ```
+
+
+## BAS with BIC
+
+```{r BAS-BIC-big}
+library(BAS)
+#nes1992 = mutate(nes1992, vote=as.numeric(vote))
+vote.BAS = bas.glm(vote ~ (. - race)^2, data=nes1992,
+                   family=binomial(),
+                   method="MCMC", n.models=20000,
+                   betaprior=bic.prior(n = nrow(nes1992)),
+                   modelprior=uniform())
+```
+
 
 
 
