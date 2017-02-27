@@ -59,7 +59,7 @@
 %\usecolortheme{orchid}
 \title{Bayesian Estimation in Linear Models \& Choice of Prior Distributions}
 \institute{Merlise Clyde}
-\author{STA521 Predicitve Models Duke University}
+\author{STA521 Predictive Models Duke University}
 \date{\today}
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \begin{document}
@@ -526,15 +526,15 @@ $$\frac{\lambdab^T\b - \lambdab\bhat}
 \begin{frame} \frametitle{Zellner-Siow Cauchy Prior}
 
 \begin{itemize}
-\item Model $\Y \sim \N( \one \beta_0 + \X \b , \I_n\phi)$ and assume $\X^T\one = 0$  case where $X$ is centered and has mean 0
+\item Model $\Y \sim \N( \one \beta_0 + \X \b , \I_n\phi)$ and assume $\X^T\one = 0$  case where $X$ is centered and has mean 0 \pause
 \item Conditional Zellner $g$ prior on $\b$
-$$\b \mid g, \phi, \beta_0 \sim \N(0, g (\X^T\X)^{-1}/\phi)$$
+$$\b \mid g, \phi, \beta_0 \sim \N(0, g (\X^T\X)^{-1}/\phi)$$ \pause
 \item Independent Jeffrey's prior on $\beta_0, \phi$
-$$p(\beta_0, \phi \mid g) \propto 1/\phi$$
+$$p(\beta_0, \phi \mid g) \propto 1/\phi$$ \pause
 
 \item Gamma prior: $1/g \sim G(1/2, 1/2)$ $\Rightarrow$ Cauchy prior distribution
 $$\b \mid  \phi, \beta_0 \sim C(0, g (\X^T\X)^{-1}/\phi)$$
-
+\pause
 \item Posterior Distributions
 \begin{align*}
 \beta_0 \mid \Y, \b, \phi, g & \sim N(\bar{Y}, \frac{1}{n \phi}) \\
