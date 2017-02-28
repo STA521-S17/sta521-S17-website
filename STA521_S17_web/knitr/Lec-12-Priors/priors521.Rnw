@@ -1,5 +1,5 @@
-%\documentclass[handout]{beamer}
-\documentclass{beamer}
+\documentclass[handout]{beamer}
+%\documentclass{beamer}
 \usepackage{graphicx}
 \usepackage{amsmath,amssymb,array,comment,eucal}
 \input{macros}
