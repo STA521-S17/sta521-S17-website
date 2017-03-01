@@ -21,3 +21,5 @@ clyde@stat.duke.edu
 *.dropbox
 .RData
 .Rproj.user
+STA521_S17_web/knitr/*/figure
+figure/*
