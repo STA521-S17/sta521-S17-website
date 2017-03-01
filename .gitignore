@@ -22,4 +22,4 @@ clyde@stat.duke.edu
 .RData
 .Rproj.user
 STA521_S17_web/knitr/*/figure
-figure/*
+STA521_S17_web/knitr/*/*.synctex.*
