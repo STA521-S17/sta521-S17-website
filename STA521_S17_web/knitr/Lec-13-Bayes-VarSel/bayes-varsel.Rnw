@@ -1,5 +1,5 @@
-\documentclass[handout]{beamer}
-%\documentclass{beamer}
+%\documentclass[handout]{beamer}
+\documentclass{beamer}
 % ***************************************************************
 
 \usepackage{graphicx}
@@ -89,7 +89,7 @@ ggplot(beta, aes(`log(firms)`, `log(popn)`)) + geom_density_2d()
    \item Inclusion of un-necessary terms yields less precise
   estimates, particularly if explanatory variables are highly
   correlated with each other \pause
-  \item reduced MSE: reduced variance but possibly higher bias
+  \item reduced MSE: reduced variance but possibly higher bias  \pause
   \item it is too ``expensive'' to use all variables
   \end{itemize}
 \end{frame}
@@ -141,7 +141,7 @@ $$ p(\Y \mid \Mg) = \iint p(\Y \mid \b_\gamma,
   regression coefficients (exception parameters that are included in all models) \pause
   \item Vague but proper priors may lead to paradoxes! \pause
   \item Conjugate Normal-Gammas lead to closed form expressions for
-  marginal likelihoods, Zellner's g-prior is one of the most popular. \pause
+  marginal likelihoods, Zellner's g-prior is one of the most popular.
   \end{itemize}
 
 \end{frame}

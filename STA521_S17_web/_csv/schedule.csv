@@ -19,20 +19,24 @@ Week 6,13-Feb,Prediction ," <a href=""../knitr/Lec-9-Selection/Resampling.pdf"">
 Week 7,20-Feb,Bayesian Regression,"<a href=""../knitr/Lec-11-Bayes-Reg/bayesreg.pdf"">slides</a>  (<a href=""../knitr/Lec-11-Bayes-Reg/bayesreg.Rnw"">Beamer</a> )","GH Chapter 18,  Hoff Chapter 9",
 ,22-Feb,Midterm I,,,
 ,24-Feb,Lab 6:  Simulation,"<a href=""https://github.com/STA521-S17/Lab6"">  Lab6</a>",GH Chapters 6-8,
-Week 8,27-Feb,Bayesian Inference,"<a href=""../knitr/Lec-12-Priors/priors521.pdf"">slides</a>  (<a href=""../knitr/Lec-12-Priors/priors521.Rnw"">Beamer</a> )",Hoff Chapter 9,HW 5
-,1-Mar,Bayesian Variable Selection ,"<a href=""../knitr/Lec-13-Bayes-VarSel/bayes-varsel.pdf"">slides</a>  (<a href=""../knitr/Lec-13-Bayes-VarSel/bayes-varsel.Rnw"">Beamer</a> )",,
-Week 9,6-Mar,,,,
-,8-Mar,,,,
+Week 8,27-Feb,Bayesian Inference,"<a href=""../knitr/Lec-12-Priors/priors521.pdf"">slides</a>  (<a href=""../knitr/Lec-12-Priors/priors521.Rnw"">Beamer</a> )",Hoff Chapter 9,"See <a href=""https://github.com/STA521-S17"">  HW5_Team_X in your github team page</a>"
+,1-Mar,Bayesian Variable Selection ,"<a href=""../knitr/Lec-13-Bayes-VarSel/bayes-varsel.pdf"">slides</a>  (<a href=""../knitr/Lec-13-Bayes-VarSel/bayes-varsel.Rnw"">Beamer</a> )","<a href=""https://people.eecs.berkeley.edu/~jordan/courses/260-spring10/readings/liang-etal.pdf""> Liang et al 2008 JASA</a>",
+,3-Mar,Lab 7: MCMC for Variable Selection,"<a href=""https://github.com/STA521-S17/Lab7"">  Lab7</a>","<a href=""https://cran.r-project.org/web/packages/BAS/vignettes/BAS-vignette.html"">BAS Vignette</a>",
+Week 9,6-Mar,BMA & Estimation with Model Uncertainty,"<a href=""../knitr/Lec-14-BMA/bma.pdf"">slides</a>  (<a href=""../knitr/Lec-14-bma.Rnw"">Beamer</a> )","< a href =  ""https://projecteuclid.org/download/pdf_1/euclid.ss/1009212519 ""> Hoeting et al 1999, Stat Sci </a> ,< a href=""https://projecteuclid.org/euclid.ss/1089808274""> Clyde & George 2004 (Stat. Sci.)</a>,  <a href=""https://people.eecs.berkeley.edu/~jordan/courses/260-spring10/readings/liang-etal.pdf""> Liang et al 2008 JASA</a>",
+,8-Mar,Prior Robustness: Cauchy and other heavy tailed priors,,,
+,10-Mar,Lab 8:  JAGS intro,,,
 Week 10,13-Mar,,"<span style=""color:gray"">No class - Spring Break",,
-Week 11,20-Mar,,,,
-,22-Mar,,,,
-Week 12,27-Mar,,,,
-,29-Mar,,,,
-Week 13,3-Apr,,,,
+Week 11,20-Mar,(Bayesian) Ridge Regression,,,HW 6
+,22-Mar,Generalized Ridge Regression,,,
+,,Lab 9: ,,,
+Week 12,27-Mar,Trees,,,HW 7
+,29-Mar,Forests,,,
+,,Lab 10: ,,,
+Week 13,3-Apr,BART,,,HW8
 ,5-Apr,Midterm II,,,
-Week 14,10-Apr,,,,
-,12-Apr,,,,
-Week 15,17-Apr,,,,
+Week 14,10-Apr,Bayesian Kernel Regression,,,
+,12-Apr,Causal Inference Intro,,,
+Week 15,17-Apr,Hierarchical Models,,,Final Project
 ,18-Apr,,,,
 ,24-Apr,"<span style=""color:gray"">Graduate Reading Period",,,
 Final Presentations,1-May,<b>Presentations 9- 12 pm</b>,Old Chem 116,,
