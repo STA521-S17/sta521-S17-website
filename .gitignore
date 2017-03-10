@@ -21,5 +21,8 @@ clyde@stat.duke.edu
 *.dropbox
 .RData
 .Rproj.user
+STA521_S17_web/_csv/Teams.csv
 STA521_S17_web/knitr/*/figure
+STA521_S17_web/knitr/*/cache*
 STA521_S17_web/knitr/*/*.synctex.*
+STA521_S17_web/knitr/*/*concordance.*
