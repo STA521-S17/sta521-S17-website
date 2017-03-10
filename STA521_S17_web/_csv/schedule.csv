@@ -22,9 +22,9 @@ Week 7,20-Feb,Bayesian Regression,"<a href=""../knitr/Lec-11-Bayes-Reg/bayesreg.
 Week 8,27-Feb,Bayesian Inference,"<a href=""../knitr/Lec-12-Priors/priors521.pdf"">slides</a>  (<a href=""../knitr/Lec-12-Priors/priors521.Rnw"">Beamer</a> )",Hoff Chapter 9,"See <a href=""https://github.com/STA521-S17"">  HW5_Team_X in your github team page</a>"
 ,1-Mar,Bayesian Variable Selection ,"<a href=""../knitr/Lec-13-Bayes-VarSel/bayes-varsel.pdf"">slides</a>  (<a href=""../knitr/Lec-13-Bayes-VarSel/bayes-varsel.Rnw"">Beamer</a> )","<a href=""https://people.eecs.berkeley.edu/~jordan/courses/260-spring10/readings/liang-etal.pdf""> Liang et al 2008 JASA</a>",
 ,3-Mar,Lab 7: MCMC for Variable Selection,"<a href=""https://github.com/STA521-S17/Lab7"">  Lab7</a>","<a href=""https://cran.r-project.org/web/packages/BAS/vignettes/BAS-vignette.html"">BAS Vignette</a>",
-Week 9,6-Mar,BMA & Estimation with Model Uncertainty,"<a href=""../knitr/Lec-14-BMA/bma.pdf"">slides</a>  (<a href=""../knitr/Lec-14-bma.Rnw"">Beamer</a> )","< a href =  ""https://projecteuclid.org/download/pdf_1/euclid.ss/1009212519 ""> Hoeting et al 1999, Stat Sci </a> ,< a href=""https://projecteuclid.org/euclid.ss/1089808274""> Clyde & George 2004 (Stat. Sci.)</a>,  <a href=""https://people.eecs.berkeley.edu/~jordan/courses/260-spring10/readings/liang-etal.pdf""> Liang et al 2008 JASA</a>",
-,8-Mar,Prior Robustness: Cauchy and other heavy tailed priors,,,
-,10-Mar,Lab 8:  JAGS intro,,,
+Week 9,6-Mar,BMA & Estimation with Model Uncertainty,"<a href=""../knitr/Lec-14-BMA/bma.pdf"">slides</a>  (<a href=""../knitr/Lec-14-BMA/bma.Rnw"">Beamer</a> )","<a href=""https://projecteuclid.org/download/pdf_1/euclid.ss/1009212519 ""> Hoeting et al 1999, Stat Sci </a> ,<a href=""https://projecteuclid.org/euclid.ss/1089808274""> Clyde & George 2004 (Stat. Sci.)</a>,  <a href=""https://people.eecs.berkeley.edu/~jordan/courses/260-spring10/readings/liang-etal.pdf""> Liang et al 2008 JASA</a>",
+,8-Mar,(Bayesian) Ridge Regression ,"<a href=""../knitr/Lec-15-Ridge/ridge.pdf"">slides</a>  (<a href=""../knitr/Lec-15-Ridge/ridge.Rnw"">Beamer</a> )",ISLR Chapter 6,
+,10-Mar,Lab 8:  JAGS intro,"<a href=""https://github.com/STA521-S17/Lab8"">  Lab8</a>",,
 Week 10,13-Mar,,"<span style=""color:gray"">No class - Spring Break",,
 Week 11,20-Mar,(Bayesian) Ridge Regression,,,HW 6
 ,22-Mar,Generalized Ridge Regression,,,

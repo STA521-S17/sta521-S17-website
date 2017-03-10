@@ -1,5 +1,5 @@
-%\documentclass[handout]{beamer}
-\documentclass{beamer}
+\documentclass[handout]{beamer}
+%\documentclass{beamer}
 % ***************************************************************
 
 \usepackage{graphicx}
@@ -57,7 +57,7 @@ for (i in 10:n.out) {cat(tmp[i], "\n")}
 \end{itemize}
 
 $$\b \mid \Y, \alpha, \phi \sim N\left(\frac{g}{1 + g} \bhat, \phi^{-1}\frac{g}{1 + g} (\X^T\X)^{-1} \right)$$
-$$ \phi \mid \Y \sim \Gam \left(\frac{n-1}{2}, \frac{\SSE - \frac{1}{1 + g} \bhat^T (\X^T\X) \bhat}{2} \right) $$
+$$ \phi \mid \Y \sim \Gam \left(\frac{n-1}{2}, \frac{\SSE + \frac{1}{1 + g} \bhat^T (\X^T\X) \bhat}{2} \right) $$
 \end{frame}
 
 \begin{frame} \frametitle{joint posterior draws of beta's}

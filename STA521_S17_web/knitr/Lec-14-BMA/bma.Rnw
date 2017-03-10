@@ -1,5 +1,5 @@
-\documentclass[handout]{beamer}
-%\documentclass{beamer}
+%\documentclass[handout]{beamer}
+\documentclass{beamer}
 % ***************************************************************
 % for handout, change only this...
 %   \documentclass[twocolumn]{article}

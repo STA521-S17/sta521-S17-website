@@ -1,5 +1,4 @@
-%\documentclass[handout]{beamer}
-\documentclass{beamer}\usepackage[]{graphicx}\usepackage[]{color}
+\documentclass[handout]{beamer}\usepackage[]{graphicx}\usepackage[]{color}
 %% maxwidth is the original width if it is less than linewidth
 %% otherwise use linewidth (to make sure the graphics do not exceed the margin)
 \makeatletter
@@ -50,6 +49,7 @@
 \newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
 
 \usepackage{alltt}
+%\documentclass{beamer}
 % ***************************************************************
 
 \usepackage{graphicx}
@@ -124,7 +124,7 @@ F-statistic: 6.936 on 6 and 34 DF,  p-value: 7.12e-05
 \end{itemize}
 
 $$\b \mid \Y, \alpha, \phi \sim N\left(\frac{g}{1 + g} \bhat, \phi^{-1}\frac{g}{1 + g} (\X^T\X)^{-1} \right)$$
-$$ \phi \mid \Y \sim \Gam \left(\frac{n-1}{2}, \frac{\SSE - \frac{1}{1 + g} \bhat^T (\X^T\X) \bhat}{2} \right) $$
+$$ \phi \mid \Y \sim \Gam \left(\frac{n-1}{2}, \frac{\SSE + \frac{1}{1 + g} \bhat^T (\X^T\X) \bhat}{2} \right) $$
 \end{frame}
 
 \begin{frame} \frametitle{joint posterior draws of beta's}
