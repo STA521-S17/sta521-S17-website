@@ -26,17 +26,20 @@ Week 9,6-Mar,BMA & Estimation with Model Uncertainty,"<a href=""../knitr/Lec-14-
 ,8-Mar,(Bayesian) Ridge Regression ,"<a href=""../knitr/Lec-15-Ridge/ridge.pdf"">slides</a>  (<a href=""../knitr/Lec-15-Ridge/ridge.Rnw"">Beamer</a> )",ISLR Chapter 6,
 ,10-Mar,Lab 8:  JAGS intro,"<a href=""https://github.com/STA521-S17/Lab8"">  Lab8</a>",,
 Week 10,13-Mar,,"<span style=""color:gray"">No class - Spring Break",,
-Week 11,20-Mar,(Bayesian) Ridge Regression,,,HW 6
-,22-Mar,Generalized Ridge Regression,,,
-,,Lab 9: ,,,
-Week 12,27-Mar,Trees,,,HW 7
-,29-Mar,Forests,,,
-,,Lab 10: ,,,
-Week 13,3-Apr,BART,,,HW8
-,5-Apr,Midterm II,,,
-Week 14,10-Apr,Bayesian Kernel Regression,,,
-,12-Apr,Causal Inference Intro,,,
-Week 15,17-Apr,Hierarchical Models,,,Final Project
-,18-Apr,,,,
-,24-Apr,"<span style=""color:gray"">Graduate Reading Period",,,
-Final Presentations,1-May,<b>Presentations 9- 12 pm</b>,Old Chem 116,,
+Week 11,20-Mar,(Bayesian) Lasso Regression,"<a href=""../knitr/Lec-16-GRR/blasso.pdf"">slides</a>  (<a href=""../knitr/Lec-16-GRR/blasso.Rnw"">Beamer</a> )","ISLR Chapter 6,   <a href=""http://www.stat.ufl.edu/archived/casella/Papers/Lasso.pdf""> Park & Casella</a>  and <a href=""http://faculty.chicagobooth.edu/workshops/econometrics/past/pdf/asp047v1.pdf"">, Hans 2010 </a>","See <a href=""https://github.com/STA521-S17"">  HW6_Team_X in your github team page</a>"
+,22-Mar,Robust Regression & Priors,"<a href=""../knitr/Lec-17-Robust/robust.pdf"">slides</a>  (<a href=""../knitr/Lec-17-Robust/robust.Rnw"">Beamer</a> )","<a href=""https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4214276/""> Generalized Beta Mixtures of  Gaussians </a>, <a href=""http://www2.stat.duke.edu/~mw/MWextrapubs/West1984a.pdf""> Regression with t-errors </a>",
+,,Lab 9:  Q& A for JAGS and shrinkage methods ,,,
+Week 12,27-Mar,Trees,"<a href=""../knitr/Lec-18-Trees/tree.pdf"">slides</a>  (<a href=""../knitr/Lec-18-Trees/tree.Rnw"">Beamer</a> )",ISLR Chapter 8,
+,29-Mar,Forests,"<a href=""../knitr/Lec-19-Forests/forests.pdf"">slides</a>  (<a href=""../knitr/Lec-19-Forests/forests.Rnw"">Beamer</a> )","ISLR Chapters 5 & 8, <a href=""https://projecteuclid.org/euclid.aoas/1273584455""> BART </a>",
+,,Lab 10:  Q & A,,,
+Week 13,3-Apr,Generalized Additive Models,"<a href=""../knitr/Lec-20-GAM/gam.pdf"">slides</a>  (<a href=""../knitr/Lec-20-GAM/gam.Rnw"">Beamer</a>  and  <a href=""../knitr/Lec-20-GAM/gam.R"">R</a> )",ISLR 7,
+,5-Apr,BARK,"<a href=""../knitr/Lec-21-BARK/talk.pdf"">slides</a>  ",,"See <a href=""https://github.com/STA521-S17"">  HW7_Team_X in your github team page</a>"
+,7-Apr,Lab 11: GAMS,,,
+Week 14,10-Apr,Midterm II,,,
+,12-Apr,BARK,,,
+Week 15,17-Apr,More on Interactions and Priors,,,"See <a href=""https://github.com/STA521-S17"">  Project_X in your github team  X page </a>  (new teams!)   Write up Due April 28"
+,19-Apr,Final Data Analysis Project,"<a href=""../knitr/Final_Project/display_leaderboard.html"">Daily Leader Board Scores</a>  ","See <a href=""https://github.com/STA521-S17"">  Project_X in your github team  X page </a>  (new teams!) ",
+,20-Apr,Missing Data and Project Overview,"<a href=""../knitr/Lec-22-Missing/missing.pdf"">slides</a>,   <a href=""../knitr/Lec-22-Missing/missing.Rnw"">source</a>   and <a href=""../knitr/Lec-22-Missing/gambia.dat"">data</a>  ",,
+Week 16,24-Apr,"<span style=""color:gray"">Graduate Reading Period",,,
+,28-Apr,Write up for Project Due by 5pm,,,
+Final Presentations,1-May,<b>Team Slide Presentations 9- 12 pm</b>,Old Chem 116,,
