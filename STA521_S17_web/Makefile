@@ -20,3 +20,5 @@ serve:
 	jekyll serve --watch --baseurl ''
 
 
+leader:
+	Rscript -e  "library(rmarkdown);render('~/Dropbox/sta521-S17/sta521-website/STA521_S17_web/knitr/Final_Project/display_leaderboard.Rmd')"
